@@ -26,3 +26,9 @@ This project implements and compares Mask R-CNN and YOLO for crack detection and
 
 ## Installation
 pip install -r requirements.txt
+
+-## Pretrained Models
+
+-Due to size limitations, model weights are available here:
+
+https://drive.google.com/drive/folders/1nYNoquUwMVfvJ9anoBBX25HCzti0WkW5?usp=drive_link
