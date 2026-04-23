@@ -1,0 +1,54 @@
+{
+    "run_name": "yolo26m_seg_concrete4_refine_v1",
+    "best_epoch": 23,
+    "paths": {
+        "run_dir": "/content/drive/.shortcut-targets-by-id/1ByPPe6i6fPor6MJ_XpD6q59CWA96bWPF/cracks1_yolo/runs/yolo26m_seg_concrete4_refine_v1",
+        "best_pt": "/content/drive/.shortcut-targets-by-id/1ByPPe6i6fPor6MJ_XpD6q59CWA96bWPF/cracks1_yolo/runs/yolo26m_seg_concrete4_refine_v1/weights/best.pt",
+        "last_pt": "/content/drive/.shortcut-targets-by-id/1ByPPe6i6fPor6MJ_XpD6q59CWA96bWPF/cracks1_yolo/runs/yolo26m_seg_concrete4_refine_v1/weights/last.pt",
+        "results_csv": "/content/drive/.shortcut-targets-by-id/1ByPPe6i6fPor6MJ_XpD6q59CWA96bWPF/cracks1_yolo/runs/yolo26m_seg_concrete4_refine_v1/results.csv",
+        "data_yaml": "/content/drive/.shortcut-targets-by-id/1ByPPe6i6fPor6MJ_XpD6q59CWA96bWPF/cracks1_yolo/data.yaml",
+        "output_dir": "/content/drive/MyDrive/YOLO/results"
+    },
+    "test": {
+        "box_precision": 0.8636659887391147,
+        "box_recall": 0.7688019361485539,
+        "box_map50": 0.8542557683545773,
+        "box_map50_95": 0.6264068185681062,
+        "mask_precision": 0.7124526396363623,
+        "mask_recall": 0.63915857605178,
+        "mask_map50": 0.571910162994906,
+        "mask_map50_95": 0.21407476480199422
+    },
+    "validation": {
+        "box_precision": 0.8277854957529879,
+        "box_recall": 0.7028023598820059,
+        "box_map50": 0.7644085679777619,
+        "box_map50_95": 0.5297721444560034,
+        "mask_precision": 0.6828315016095515,
+        "mask_recall": 0.5604521400136862,
+        "mask_map50": 0.504332663492613,
+        "mask_map50_95": 0.18287687479353298
+    },
+    "model_comparison": {
+        "YOLO_best_test": {
+            "Box Precision": 0.8636659887391147,
+            "Box Recall": 0.7688019361485539,
+            "Box mAP50": 0.8542557683545773,
+            "Box mAP50-95": 0.6264068185681062,
+            "Mask Precision": 0.7124526396363623,
+            "Mask Recall": 0.63915857605178,
+            "Mask mAP50": 0.571910162994906,
+            "Mask mAP50-95": 0.21407476480199422
+        },
+        "Mask_R-CNN_test": {
+            "Box Precision": null,
+            "Box Recall": null,
+            "Box mAP50": null,
+            "Box mAP50-95": null,
+            "Mask Precision": null,
+            "Mask Recall": null,
+            "Mask mAP50": null,
+            "Mask mAP50-95": null
+        }
+    }
+}
